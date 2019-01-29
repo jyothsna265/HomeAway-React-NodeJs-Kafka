@@ -5,15 +5,16 @@ The main goal of this system is to develop a prototype of a HomeAway application
 
 Technologies:
 -------------
-1. Front-end Framework	- React.js - Redux
-2. Back-end	- Node.js 
-3. Front-end Web Framework	- Bootstrap, React-bootstrap
-4. Database	- MongoDB 
-5. Web Framework for Node.js	- Express.js 
-6. Load Testing	- Jmeter 
-7. API Testing	- Mocha
-8. Authentication - Passport JS
-9. Middleware(messaging) - Kafka
+Domain	 | Technology
+-------- | -----------
+Front End | React JS / Redux
+Back End | Node JS
+UI	| Bootstrap, React Bootstrap, Material UI
+Database | MongoDB
+Authentication | 	Passport JS
+Middleware |	Kafka
+Load Testing | 	JMeter
+API Testing | Mocha
 
 Features of the System
 ------------------------
