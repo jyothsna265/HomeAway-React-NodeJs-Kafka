@@ -1,1 +1,66 @@
-# HomeAway-React-NodeJs-Kafka
+HomeAway Application
+---------------------
+
+The main goal of this system is to develop a prototype of a HomeAway application which provides various functionalities like Traveler Login, Sign Up of new user, Sign In of existing user, Sign Out, Updating the profile, Owners Sign In, listing of properties, Search of properties, dashboard for travelers and owners using React JS, SQL Server and Node JS.
+
+Technologies:
+-------------
+1. Front-end Framework	- React.js - Redux
+2. Back-end	- Node.js 
+3. Front-end Web Framework	- Bootstrap, React-bootstrap
+4. Database	- MongoDB 
+5. Web Framework for Node.js	- Express.js 
+6. Load Testing	- Jmeter 
+7. API Testing	- Mocha
+8. Authentication - Passport JS
+9. Middleware(messaging) - Kafka
+
+Features of the System
+------------------------
+
+Basic Users functionalities:
+1. Sign up new user (at least first name, last name, Email and password)
+2. Sign in existing user (Encryption using Bcrypt)
+3. Sign out. 
+4. Sign Up with fields - first name, last name, Email and password. 
+5. Update profile of the user (Profile Image, Name, Email, Phone Number, About Me, City, Country, Company, School, Hometown, Languages, Gender) 
+6. Owner can post property (Property Location, Details, Booking Options, Photos, Pricing, Amenities, Availability) 
+7. User can search for the property based on the place, start date, end date, guests. 
+8. User can look at all the listed properties and book a property 
+9. Travelers Dashboard – which tracks all the booked properties.
+10. Owners Dashboard – which tracks all the properties listed by the owner and all track all the properties which are booked by the travelers.
+
+Getting Started
+-----------------
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+Setup
+-------
+Install ReactJS
+On the terminal: npm install -g create-react-app, Install Node.js, if you haven't already. Install its dependencies. Follow the steps on the terminal to start the servers:
+
+Back-end server
+****************
+1. cd Backend
+2. node server.js
+
+Kafka server
+*************
+1. cd kafka_backend
+2. npm start
+
+Front-end server
+*****************
+1. cd homeaway_frontend
+npm start
+
+Built With
+Express.js - web application framework for Node.js
+NPM - Package Manager
+Bootstrap - front-end web framework
+
+Authors
+--------
+Jyothsna Goalla Dilli Naidu - Individual work .
+
+
